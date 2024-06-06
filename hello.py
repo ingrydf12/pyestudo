@@ -1,3 +1,5 @@
+#mainpulação de strings e fatiamento
+
 nome = "guilhErme"
 
 print(nome.upper()) # transforma tudo em maiúscula
@@ -17,3 +19,13 @@ print("Meu nome é {} e tenho {} anos.".format(texto.strip(), idade))
 #outra forma usando o format
 #lembnrando que a primeira posição é 0 
 print("Meu nome é {1} e tenho {0} anos".format(idade, texto.strip()))
+
+#f-string
+print(f"meu nome é {texto.strip()} e tenho {idade} anos.")
+
+#strings de múltiplas linhas
+mensagem = """Olá, meu nome é Ingryd
+e tenho 18 anos. Bom dia!
+"""
+
+print(mensagem)
