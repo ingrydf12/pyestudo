@@ -29,3 +29,30 @@ e tenho 18 anos. Bom dia!
 """
 
 print(mensagem)
+
+#listas
+
+frutas = ["laranja", "maca", "uva"]
+print(frutas)
+frutas = []
+
+letras = list("python") #elemento iterado.
+print(letras)
+numeros = list(range(10)) #gera valores de 0 a 9
+print(numeros)
+carro = ["Ferrari", "F8", 4200000, 2020, 2900, "São Paulo", True]
+print (carro)
+
+# a função isinstance() retorna se um determinado objeto é de um tipo (boolean: True ou False)
+
+carros = ("gol")
+print(isinstance(carros, str))
+# resultado: True
+
+carros_new = ["gol", "fiat"]
+print(isinstance(carros_new, list))
+#resultado True
+
+carros_new = ("gol", "fiat",)
+print(isinstance(carros_new, tuple))
+# resultado True
