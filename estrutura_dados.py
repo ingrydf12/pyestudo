@@ -91,10 +91,10 @@ def validate_numero_telefone(phone_number):
     # O 're.match()' retorna um objeto 'match' se houver correspondência no início da string, caso contrário, retorna 'None'.
     if re.match(pattern, phone_number):  
         # TODO: Agora crie um return, para retornar que o número de telefone é válido:
-      return "O número de telefone é válido."
+      return "Número de telefone é válido."
        # TODO: Crie um else e return, caso não o número de telefone seja inválido:
     else:
-        return "O número de telefone é inválido."
+        return "Número de telefone é inválido."
     
 
 # Solicita ao usuário que insira um número de telefone e armazena o valor fornecido na variável 'phone_number'.
