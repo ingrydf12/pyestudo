@@ -84,9 +84,8 @@ import re
 
  # TODO: Crie uma função chamada 'validate_numero_telefone' que aceite um argumento 'phone_number':
 def validate_numero_telefone(phone_number):
-    pattern = r'^\(\d{2}\) 9\d{4}-\d{4}$'
     # TODO: Defina um padrão de expressão regular (regex) para validar números de telefone no formato (XX) 9XXXX-XXXX:
-   
+    pattern = r'^\(\d{2}\) 9\d{4}-\d{4}$'
     # A função 're.match()' para verifica se o padrão definido corresponde ao número de telefone fornecido.
     # O 're.match()' retorna um objeto 'match' se houver correspondência no início da string, caso contrário, retorna 'None'.
     if re.match(pattern, phone_number):  
