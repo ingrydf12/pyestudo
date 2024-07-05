@@ -1,5 +1,6 @@
 # classe é um molde de um objeto, objeto é a instancia de uma classe, e a instancia é "criação" de um objeto a partir de classe
 class Bicicleta: 
+    #__init__: Método especial chamado automaticamente para inicializar uma nova instância da classe. =! init: Um método comum
     def __init__(self, cor, modelo, ano, valor):
         self.cor = cor
         self.modelo = modelo
@@ -21,10 +22,10 @@ class Bicicleta:
 
 
 b1 = Bicicleta("vermelha", "caloi", 2022, 600)
+print(b1)
 b1.buzinar()
 b1.correr()
 b1.parar()
-print(b1.cor, b1.modelo, b1.ano, b1.valor)
 
 b2 = Bicicleta("verde", "monark", 2000, 189)
 print(b2)
